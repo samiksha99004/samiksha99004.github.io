@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects & Lab Works — B SAMIKSHA</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <div id="cursor" class="cursor" aria-hidden="true"></div>
+  <header>
+    <nav class="menu" aria-label="Main navigation">
+      <a class="menu-btn" href="../index.html">Home</a>
+      <a class="menu-btn" href="work.html">Work</a>
+      <a class="menu-btn" href="education.html">Education</a>
+      <a class="menu-btn" href="lab.html">Lab Works</a>
+      <a class="menu-btn" href="skills.html">Skills</a>
+      <a class="menu-btn" href="certs.html">Certifications</a>
+      <a class="menu-btn" href="workshops.html">Workshops</a>
+      <a class="menu-btn" href="activities.html">Activities</a>
+      <a class="menu-btn" href="competitions.html">Competitions</a>
+    </nav>
+  </header>
+  <main>
+    <section id="lab" class="panel glass-panel">
+      <h2>PROJECTS & LAB WORKS</h2>
+      <div class="info-grid">
+        <div class="info-card glass-card">
+          <h3>Behavioural-Based Intrusion Detection System using Machine Learning (Ongoing | Group of 4)</h3>
+          <ul>
+            <li>Designed and built an ML-based IDS using Isolation Forest to detect network anomalies from the CICIDS2018 dataset, engineering a 40-feature pipeline via mutual information ranking.</li>
+            <li>Built a full-stack dashboard (React + TypeScript frontend, FastAPI + Python backend) with real-time WebSocket streaming of live anomaly scores, alerts, and system status.</li>
+            <li>Implemented Detection and Protection modes, including automated IP blocking via Windows Firewall integration and live network flow monitoring using psutil.</li>
+            <li>Validated the detection pipeline against labeled attack traffic (DDoS, DoS, brute-force, XSS, infiltration) to balance false positive/negative rates.</li>
+            <li>Added desktop notifications and SMTP-based email alerts; used PostgreSQL for event/alert/log storage.</li>
+            <li>Used Kiro and Cursor for AI-assisted development and debugging.</li>
+            <li>Packaged as a native Windows desktop application using Electron.</li>
+          </ul>
+        </div>
+        <div class="info-card glass-card">
+          <h3>Library Management System (Developing | Personal Project)</h3>
+          <ul>
+            <li>Full-stack app: React frontend, FastAPI backend, PostgreSQL database.</li>
+            <li>Designed relational schema for book cataloguing, member records, and issue/return transactions, with role-based access separating admin and member permissions.</li>
+            <li>Implemented REST APIs for search/filtering by title, author, category, plus due-date tracking and fine calculation for overdue returns.</li>
+            <li>Built an admin dashboard for inventory management and real-time active loan monitoring.</li>
+            <li>Used Antigravity and GitHub Copilot for AI-assisted development; wrote tests for core booking/inventory logic.</li>
+          </ul>
+        </div>
+        <div class="info-card glass-card">
+          <h3>Home SOC Lab (Ongoing | Personal Project)</h3>
+          <ul>
+            <li>Set up a home lab to practice cybersecurity skills: simulating attacks, monitoring systems, detecting suspicious activity.</li>
+            <li>Used Kali Linux to launch test attacks; Windows and Ubuntu machines as monitored targets.</li>
+            <li>Used Wazuh, Suricata, and Sysmon to collect and review logs.</li>
+            <li>Practiced identifying port scanning, brute-force login attempts, and privilege escalation.</li>
+          </ul>
+        </div>
+        <div class="info-card glass-card">
+          <h3>Neon Portfolio Website (Personal Project)</h3>
+          <ul>
+            <li>Designed and built this personal portfolio website using React (source) / HTML, CSS, JS (deployed) with a neon-themed dark UI — glowing accents, gradient highlights, smooth scroll/hover animations.</li>
+            <li>Structured into distinct sections: Summary, Work, Education, Lab Works, Skills, Certifications, Workshops, Activities — fully responsive across desktop and mobile.</li>
+            <li>Used Cursor for AI-assisted development; deployed and hosted live on GitHub Pages.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="../script.js"></script>
+</body>
+</html>
