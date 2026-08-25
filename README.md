@@ -1,6 +1,6 @@
 # ⚡ Hey, welcome!
 
-This is my personal portfolio — built with plain HTML, CSS, and JS, wrapped in a neon dark theme because boring portfolios are a crime.
+This is my personal portfolio 
 
 🔗 Live here: [samiksha99004.github.io](https://samiksha99004.github.io)
 
